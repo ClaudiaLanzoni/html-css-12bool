@@ -5,20 +5,26 @@
     box-sizing: border-box;
 }
 
-
 [class^="col"]{
     background-color: rgba(255,192,203);
     border: 1px solid black;
     text-align: center;
     height: 200px;
     line-height: 200px;
+    width: 80%;
+}
+
+[class^="col-"] >.row {
+    padding: 5px;
 }
 
 [class^="col-"] >.row div {
     background-color: rgba(240,127,128);
     border: 1px solid white;
-    text-align: center;
-    height: 180px;
-    line-height: 180px;
+    height: 190px;
+    line-height: 190px;
 }
+
+
+
  
