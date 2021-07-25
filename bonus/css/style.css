@@ -20,9 +20,13 @@ body {
 }
 
 [class^="half2"]{
-    /*border: 2px solid chartreuse;*/
+    /*border: 2px solid chartreuse;*/   /*Griglia immagine*/
     height: 25px;
     width: 100%;
+}
+
+.col-1 {                                /*Griglia row scacchi*/
+   /* border: 1px solid crimson; */
 }
 
 .b {
